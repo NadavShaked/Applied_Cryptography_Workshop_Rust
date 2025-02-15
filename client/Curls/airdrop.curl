@@ -1,0 +1,7 @@
+curl --location 'http://127.0.0.1:3030/airdrop' \
+--header 'Content-Type: application/json' \
+--data '{
+    "payer_keypair_as_hex": "dcf858909bc5bcbefc152eaf0561eb1d6e6c223328f0e06d8ce855f987a07e327bc14a0545e1a150fdf695cf889c482569f0ff42b30fe63b037cf8679c7c7a09",
+    "amount_sol": 5
+}
+'

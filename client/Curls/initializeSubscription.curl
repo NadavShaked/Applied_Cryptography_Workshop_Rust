@@ -1,0 +1,8 @@
+curl --location 'http://127.0.0.1:3030/initializeSubscription' \
+--header 'Content-Type: application/json' \
+--data '{
+    "payer_keypair_as_hex": "ad8227eff5367e4d31044702ca8d0a5c221bd61417e3873931d42d01d346114a124239838c56fc78f113c3c90e1e4ecd283ab75f218241e6103c52e9c9a9f5f8",
+    "mediator_keypair_as_hex": "91b298f138a41ab2b641a82e9c00c1505ecda791256f93e32beb814b980a070d9b20c29e5ed265c30606f226ccd53af629af477726504ef5d6bd2756715d96dd",
+    "program_context_keypair_as_hex": "9abcabbe576bc4c95fb7338bc941c79d89cd1163599d648f3374a81615277917d43d3c2fce05680bfe423fe37f35b9b2e6b6bf4cc08e3bd66f5c09ae9f649118"
+}
+'
